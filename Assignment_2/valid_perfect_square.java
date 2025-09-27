@@ -13,7 +13,7 @@ public class valid_perfect_square {
             System.out.print(true);
             return; 
         }
-        else if(sq<n){ //since we needd bigger value so move right
+        else if(sq<n){ //since we needd bigger value so move right`
             low=mid+1;
         }
         else{
