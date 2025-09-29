@@ -26,7 +26,7 @@ public class merge_sorted_array {
         int sec=m-1;
         int k=m+n-1; //last s ele bithane hai 
         for(int c=k;c>=0;c--){
-            if(sec<0){
+            if(sec<0){ //agr hmra sec array pura merge hogya 1st wle mai
                 break;
             }
             if(frst>=0 && arr1[frst]>arr2[sec] ){  
@@ -43,6 +43,7 @@ public class merge_sorted_array {
         for(int i=0;i<arr1.length;i++){
             System.out.println(arr1[i]+" ");
         }
+        
 
     }
 }
