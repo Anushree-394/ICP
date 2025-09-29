@@ -1,4 +1,4 @@
-package Day_1
+package Day_1;
 import java.util.*;
 public class search_in_rotated_sorted {
     public static void main(String[] args){
