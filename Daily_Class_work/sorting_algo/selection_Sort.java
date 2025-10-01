@@ -1,3 +1,4 @@
+package sorting_algo;
 import java.util.*;
 public class selection_Sort {
     public static void main(String[] args) {
