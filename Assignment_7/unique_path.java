@@ -1,6 +1,6 @@
 package  Assignment_7;
 import java.util.*;
-public class unique_path {
+public class Unique_path {
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int m=sc.nextInt();
