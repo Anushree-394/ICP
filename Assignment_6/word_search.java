@@ -7,8 +7,9 @@ public class word_search {
         int m=sc.nextInt();
         char[] [] a=new char[n][m];
         for(int i=0;i<n;i++){
+            String s=sc.next();
             for(int j=0;j<m;j++){
-                a[i][j]=sc.next().charAt(0);
+                a[i][j]=s.charAt(j);
             }
         }
         String word=sc.next();
